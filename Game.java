@@ -1,0 +1,20 @@
+public class Game{
+public static void showGameTitle(){
+System.out.println("Welcome to Adventure Quest");
+}
+public static void showGameRules(){
+System.out.println(" Rules:");
+System.out.println("1.Collect Coins");
+System.out.println("2.Avoid Obstacles");
+System.out.println("3. Reach the goal");
+}
+public static void showLodingScreen(){
+System.out.println(" Loading game...please wait");
+}
+public static void main( String [] args){
+showGameTitle();
+showGameRules();
+showLodingScreen();
+}
+}
+																			
